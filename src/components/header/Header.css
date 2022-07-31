@@ -169,6 +169,18 @@
   color: #ffffff !important;
 }
 
+.enquiry {
+  margin: 2px 5px 20px;
+  transition: all 0.2s ease-in-out;
+  color: #ffffff;
+}
+
+.enquiry:hover {
+  box-shadow: 0 2px 10px #ffe01b;
+  background-color: #ffe01b;
+  color: #ffffff !important;
+}
+
 .cr {
   margin: 2px 5px 20px;
   transition: all 0.2s ease-in-out;

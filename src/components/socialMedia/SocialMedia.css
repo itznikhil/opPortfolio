@@ -37,6 +37,16 @@
   box-shadow: 0 5px 15px #0e76a8;
 }
 
+.phone i {
+  background-color: #000000;
+  transition: all 0.2s ease-in-out;
+}
+
+.phone i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #000000;
+}
+
 .github i {
   background-color: #333;
   transition: all 0.2s ease-in-out;

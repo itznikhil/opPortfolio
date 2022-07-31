@@ -35,6 +35,7 @@ export default function Greeting(props) {
                 </span>
                 {greeting.subTitle}
               </p>
+
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
                 <button

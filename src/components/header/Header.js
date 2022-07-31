@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { greeting, settings, socialMediaLinks } from "../../portfolio.js";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
@@ -135,15 +135,16 @@ function Header(props) {
             </li>
             <li>
               <a
-                className="cr"
-                href="https://play.google.com/store/apps/details?id=com.picle.journalify"
+                className="enquiry"
+                href={socialMediaLinks.contactform}
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Journalify
+                Enquire
               </a>
             </li>
+
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

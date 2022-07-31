@@ -10,6 +10,7 @@ import { style } from "glamor";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
+const calendlySection = contactPageData.calendlySection;
 
 function Contact(props) {
   const theme = props.theme;
@@ -77,6 +78,24 @@ function Contact(props) {
             <div className="blog-heading-img-div">
               <BlogsImg theme={theme} />
             </div>
+          </div>
+        </Fade>
+        <Fade bottom duration={1000} distance="40px">
+          <h1 className="blog-heading-text" style={{ color: theme.text }}>
+            {calendlySection["title"]}
+          </h1>
+          <p
+            className="blog-header-detail-text subTitle"
+            style={{ color: theme.secondaryText }}
+          >
+            {calendlySection["subtitle"]}
+          </p>
+          <div className="blog-heading-div">
+            <div
+              class="calendly-inline-widget"
+              data-url={calendlySection["link"]}
+              style={{ minWidth: "320px", height: "630px" }}
+            ></div>
           </div>
         </Fade>
       </div>

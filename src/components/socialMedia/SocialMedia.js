@@ -15,6 +15,15 @@ export default function socialMedia() {
         <span></span>
       </a>
       <a
+        href={socialMediaLinks.tel}
+        className="icon-button phone"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fa fa-phone"></i>
+        <span></span>
+      </a>
+      <a
         href={socialMediaLinks.linkedin}
         className="icon-button linkedin"
         target="_blank"
