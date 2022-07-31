@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "opportfolio",
-  "homepage": "http://hrishi.tech/",
+  "homepage": "http://nikhilgarg.tech/",
   "version": "1.2.0",
   "scripts": {
     "build": "react-scripts build",
