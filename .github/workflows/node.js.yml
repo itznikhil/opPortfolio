@@ -1,45 +1,26 @@
 name: Node.js CI
-
 on:
   push:
     branches:
       - master
 
 jobs:
-  install-and-test:
+  build-test-deploy:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [12.x]
-
-    steps:
-      - uses: actions/checkout@master
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@master
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Install
-        run: yarn install
-        env:
-          CI: true
-
-      - name: Test
-        run: yarn test
-
-  build-and-deploy:
-    runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
-        uses: actions/checkout@master
-
-      - name: Build and deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v4
+        uses: actions/checkout@v2
+      - name: Set-up Node
+        uses: actions/setup-node@v1
         with:
-          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          branch: gh-pages
-          folder: build
-          build_script: yarn install && yarn build
+          node-version: "10.x"
+      - run: npm install
+      - run: npm run build
+      - run: npm test
+      - name: Deploy
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
+          target_branch: gh-pages
+          build_dir: build
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
