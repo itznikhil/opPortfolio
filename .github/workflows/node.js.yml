@@ -25,9 +25,28 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+      - name: Install
+        run: yarn install
+        env:
+          CI: true
+
+      - name: Test
+        run: yarn test
+    build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Build and deploy
+        uses: JamesIves/github-pages-deploy-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
+          BUILD_SCRIPT: yarn install && yarn build
+        
     
 #     - name: Deploy to netlify
 #       uses: netlify/actions/cli@master
