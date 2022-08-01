@@ -37,7 +37,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Build and deploy
-        uses: JamesIves/github-pages-deploy-action@main
+        uses: JamesIves/github-pages-deploy-action@releases/v4
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           BRANCH: gh-pages
