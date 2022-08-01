@@ -198,7 +198,111 @@ const skills = {
             color: "#207297",
           },
         },
-
+        {
+          skillName: "codeigniter",
+          fontAwesomeClassname: "simple-icons:codeigniter",
+          style: {
+            color: "#FE3A00",
+          },
+        },
+        {
+          skillName: "laravel",
+          fontAwesomeClassname: "simple-icons:laravel",
+          style: {
+            color: "#FF2C20",
+          },
+        },
+        {
+          skillName: "vuejs",
+          fontAwesomeClassname: "simple-icons:vuejs",
+          style: {
+            color: "#42B883",
+          },
+        },
+        {
+          skillName: "angular",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: {
+            color: "#DD0031",
+          },
+        },
+        {
+          skillName: "firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCB2E",
+          },
+        },
+        {
+          skillName: "redux",
+          fontAwesomeClassname: "simple-icons:redux",
+          style: {
+            color: "#764ABC",
+          },
+        },
+        {
+          skillName: "supabase",
+          fontAwesomeClassname: "simple-icons:supabase",
+          style: {
+            color: "#3BC989",
+          },
+        },
+        {
+          skillName: "typescript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            color: "#2D79C7",
+          },
+        },
+        {
+          skillName: "bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+          style: {
+            color: "#860AFB",
+          },
+        },
+        {
+          skillName: "stripe",
+          fontAwesomeClassname: "simple-icons:stripe",
+          style: {
+            color: "#6772E5",
+          },
+        },
+        {
+          skillName: "razorpay",
+          fontAwesomeClassname: "simple-icons:razorpay",
+          style: {
+            color: "#318CF4",
+          },
+        },
+        {
+          skillName: "tailwindcss",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
+          style: {
+            color: "#38BDF8",
+          },
+        },
+        {
+          skillName: "reactquery",
+          fontAwesomeClassname: "simple-icons:reactquery",
+          style: {
+            color: "#FF4154",
+          },
+        },
+        {
+          skillName: "chakraui",
+          fontAwesomeClassname: "simple-icons:chakraui",
+          style: {
+            color: "#FFFFFF",
+          },
+        },
+        {
+          skillName: "Apollo GraphQL",
+          fontAwesomeClassname: "simple-icons:apollographql",
+          style: {
+            color: "#311C87",
+          },
+        },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -295,6 +399,7 @@ const skills = {
             color: "#6863A6",
           },
         },
+
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
@@ -328,7 +433,7 @@ const degrees = {
       subtitle: "Computer Programming and Networking",
       logo_path: "readingImg.png",
       alt_name: "SETI",
-      duration: "2015 - 2018",
+      duration: "2016 - 2018",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
@@ -408,7 +513,7 @@ const experience = {
           company: "Upwork",
           company_url: "https://www.upwork.com/",
           logo_path: "upwork.png",
-          duration: "2019 - 2022",
+          duration: "June 2018 - Ongoing",
           location: "Remote",
           description: "Self Employed",
           color: "#2962FF",
@@ -426,20 +531,10 @@ const experience = {
         },
         {
           title: "Software Engineer",
-          company: "Tech Northstar",
+          company: "Northstar technologies",
           company_url: "https://technorthstar.com/",
           logo_path: "NS-1.png",
           duration: "2022 - Ongoing",
-          location: "Ahmedabad",
-          description: "IT Services and IT Consulting.",
-          color: "#2962FF",
-        },
-        {
-          title: "React Native Developer",
-          company: "Megas Media",
-          company_url: "https://www.facebook.com/megasmedia/photos/",
-          logo_path: "megasmedia.png",
-          duration: "Jan 2022 - April 2022",
           location: "Ahmedabad",
           description: "IT Services and IT Consulting.",
           color: "#2962FF",

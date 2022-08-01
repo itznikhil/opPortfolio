@@ -141,7 +141,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Enquire
+                Send your Enquiry
               </a>
             </li>
 
