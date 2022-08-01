@@ -2,7 +2,7 @@
   "private": true,
   "name": "opportfolio",
   "version": "1.2.0",
-  "homepage": "https://nikhilgarg.tech",
+  "homepage": "http://nikhilgarg.tech",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
