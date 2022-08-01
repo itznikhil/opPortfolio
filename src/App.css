@@ -29,6 +29,10 @@
   color: #868e96;
 }
 
+.center-text {
+  text-align: center;
+}
+
 /* Animations */
 @keyframes fade_down {
   0% {

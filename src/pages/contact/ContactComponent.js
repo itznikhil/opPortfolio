@@ -85,7 +85,7 @@ function Contact(props) {
             {calendlySection["title"]}
           </h1>
           <p
-            className="blog-header-detail-text subTitle"
+            className="blog-header-detail-text subTitle center-text"
             style={{ color: theme.secondaryText }}
           >
             {calendlySection["subtitle"]}

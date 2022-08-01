@@ -304,6 +304,69 @@ const skills = {
           },
         },
         {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#311C87",
+          },
+        },
+        {
+          skillName: "expo",
+          fontAwesomeClassname: "simple-icons:expo",
+          style: {
+            color: "#000020",
+          },
+        },
+        {
+          skillName: "jquery",
+          fontAwesomeClassname: "simple-icons:jquery",
+          style: {
+            color: "#0769AD",
+          },
+        },
+        {
+          skillName: "socketdotio",
+          fontAwesomeClassname: "simple-icons:socketdotio",
+          style: {
+            color: "#010101",
+          },
+        },
+        {
+          skillName: "supabase",
+          fontAwesomeClassname: "simple-icons:supabase",
+          style: {
+            color: "#3ECF8E",
+          },
+        },
+        {
+          skillName: "mapbox",
+          fontAwesomeClassname: "simple-icons:mapbox",
+          style: {
+            color: "#010101",
+          },
+        },
+        {
+          skillName: "github",
+          fontAwesomeClassname: "simple-icons:github",
+          style: {
+            color: "#010101",
+          },
+        },
+        {
+          skillName: "paypal api",
+          fontAwesomeClassname: "simple-icons:paypal",
+          style: {
+            color: "#00457C",
+          },
+        },
+        {
+          skillName: "threejs",
+          fontAwesomeClassname: "simple-icons:threedotjs",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
           style: {
