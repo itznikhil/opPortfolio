@@ -38,7 +38,7 @@ jobs:
 
       - name: Build and deploy
         uses: JamesIves/github-pages-deploy-action@releases/v4
-        env:
+        with:
           github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           branch: gh-pages
           folder: build
