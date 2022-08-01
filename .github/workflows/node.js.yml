@@ -39,7 +39,7 @@ jobs:
       - name: Build and deploy
         uses: JamesIves/github-pages-deploy-action@releases/v4
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: build
-          BUILD_SCRIPT: yarn install && yarn build
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          branch: gh-pages
+          folder: build
+          build_script: yarn install && yarn build
