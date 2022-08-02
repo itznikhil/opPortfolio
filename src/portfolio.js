@@ -248,6 +248,20 @@ const skills = {
           },
         },
         {
+          skillName: "django",
+          fontAwesomeClassname: "simple-icons:django",
+          style: {
+            color: "#092E20",
+          },
+        },
+        {
+          skillName: "flask",
+          fontAwesomeClassname: "simple-icons:flask",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
           skillName: "typescript",
           fontAwesomeClassname: "simple-icons:typescript",
           style: {
