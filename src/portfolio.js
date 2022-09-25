@@ -27,7 +27,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/nikhil-garg-9a56ba233/",
   gmail: "nikhilgarg983@gmail.com",
   gitlab: " ",
-  facebook: " ",
+  facebook: "https://www.facebook.com/co.nikhil.garg/",
   tel: "Tel:+916396120175",
   contactform:
     "https://us9.list-manage.com/contact-form?u=3d3df8c91e9dce3b0897e2347&form_id=5685bf117664ef066f78acb001c0c4c8",
@@ -601,7 +601,7 @@ const experience = {
           company_url:
             "https://www.upwork.com/o/companies/~018c7b6c9d5feb2c3f/",
           logo_path: "codesymphony.jpg",
-          duration: "2022 - Ongoing",
+          duration: "Mar 2022 - Ongoing",
           location: "Ahmedabad",
           description: "IT Services and IT Consulting.",
           color: "#2962FF",
@@ -637,10 +637,10 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Mentor - LegalDesk Clone Project",
-          company: "Saansh Media",
-          company_url: "https://saanshmedia.com/",
-          logo_path: "Saansha_media_Logo.jpg",
+          title: "Mentor - Technorthstar",
+          company: "Tech north star",
+          company_url: "https://technorthstar.com/",
+          logo_path: "NS-1.png",
           duration: "22",
           location: " ",
           description:
