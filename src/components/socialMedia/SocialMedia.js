@@ -14,7 +14,7 @@ export default function socialMedia() {
         <i className="fab fa-github"></i>
         <span></span>
       </a>
-      <a
+      {/* <a
         href={socialMediaLinks.tel}
         className="icon-button phone"
         target="_blank"
@@ -22,7 +22,7 @@ export default function socialMedia() {
       >
         <i className="fa fa-phone"></i>
         <span></span>
-      </a>
+      </a> */}
       <a
         href={socialMediaLinks.linkedin}
         className="icon-button linkedin"
